@@ -1,0 +1,75 @@
+.my_first_heading {
+    margin-top: 30px;
+    margin-left: 30px;
+    background-color: red;
+    color: white;
+}
+
+.par {
+    padding: auto;
+    margin: auto;
+    background-color: blue;
+    width: fit-content;
+    padding: 10px;
+    color: white;
+}
+
+.div1 {
+    background-color: antiquewhite;
+    width: 250px;
+    height: 250px;
+    margin: auto;
+    padding: 10px;
+    border: 3px dashed black;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.div1 h2 {
+    /* text-align: center; */
+    margin-left: 15px;
+    color: red;
+}
+
+.div2 {
+    background-color: burlywood;
+    width: 80%;
+    margin: auto;
+    padding: 5px;
+}
+
+.circle {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    margin: auto;
+    border-radius: 100%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: burlywood;
+    padding: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+nav a:hover {
+    color: red;
+}
+
+nav a:active {
+    color: yellow;
+}
+
+nav a:visited {
+    color: purple;
+}
+
+nav a:link {
+    color: orange;
+}

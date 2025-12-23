@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ol {
+            list-style-type: lower-alpha;
+            list-style-position: outside;
+        }
+
+        ul {
+            list-style-type: circle;
+            list-style-position: inside;
+            list-style-image: url(salesforce\ logo.svg);
+        }
+
+        table,
+        th,
+        tr,
+        td {
+            border: 2px solid black;
+            border-collapse: collapse;
+        }
+
+
+        table {
+            width: 70%;
+            height: 300px;
+            text-align: center;
+            background-image: url(salesforce\ logo.svg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-color: bisque;
+        }
+
+
+        table tr:nth-child(even) {
+            background-color: red;
+        }
+
+
+        table tr td:nth-child(odd) {
+            background-color: aqua;
+        }
+    </style>
+</head>
+
+<body>
+    <ol>
+        <li>Pen</li>
+        <li>Book</li>
+        <li>Phone</li>
+        <li>Television set</li>
+        <li>Radio set</li>
+    </ol>
+    <ul>
+        <li>Pen</li>
+        <li>Book</li>
+        <li>Phone</li>
+        <li>Television set</li>
+        <li>Radio set</li>
+    </ul>
+    <table>
+        <tr>
+            <th>S/N</th>
+            <th>Name</th>
+            <th>Reg. Number</th>
+            <th>Course</th>
+            <th>Gender</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Ade</td>
+            <td>IFT/234</td>
+            <td>IFT</td>
+            <td>Male</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>John</td>
+            <td>CENG/765</td>
+            <td>Computer Eng</td>
+            <td>Male</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Abdul</td>
+            <td>CSS/367</td>
+            <td>CSS</td>
+            <td>Male</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Fatimah</td>
+            <td>CENG/876</td>
+            <td>Computer Eng</td>
+            <td>Female</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Ali</td>
+            <td>CSS/097</td>
+            <td>CSS</td>
+            <td>Male</td>
+        </tr>
+    </table>
+</body>
+
+</html>
